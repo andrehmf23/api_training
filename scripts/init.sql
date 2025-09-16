@@ -1,0 +1,8 @@
+USE listdb;
+
+CREATE TABLE IF NOT EXISTS list (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    description TEXT,
+    purchased BOOLEAN DEFAULT FALSE
+);
